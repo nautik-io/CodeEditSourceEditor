@@ -22,6 +22,7 @@ public enum CaptureName: Int8, CaseIterable, Sendable {
     case comment
     case variable
     case property
+    case field
     case function
     case method
     case number
@@ -70,6 +71,8 @@ public enum CaptureName: Int8, CaseIterable, Sendable {
             return .variable
         case "property":
             return .property
+        case "field":
+            return .field
         case "function":
             return .function
         case "method":
@@ -120,6 +123,8 @@ public enum CaptureName: Int8, CaseIterable, Sendable {
             return "variable"
         case .property:
             return "property"
+        case .field:
+            return "field"
         case .function:
             return "function"
         case .method:

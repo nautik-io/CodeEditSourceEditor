@@ -21,8 +21,8 @@ let package = Package(
         ),
         // tree-sitter languages
         .package(
-            url: "https://github.com/CodeEditApp/CodeEditLanguages.git",
-            exact: "0.1.20"
+            url: "https://github.com/nautik-io/CodeEditLanguages",
+            revision: "b83c9deb7ac8b145fe5cbb20f3800f9ab98215c1"
         ),
         // CodeEditSymbols
         .package(

@@ -87,7 +87,7 @@ public struct EditorTheme: Equatable {
                 .keywordReturn, .keywordFunction, .repeat, .conditional, .tag:
             return keywords
         case .comment: return comments
-        case .variable, .property: return variables
+        case .variable, .property, .field: return variables
         case .function, .method: return variables
         case .number, .float: return numbers
         case .string: return strings

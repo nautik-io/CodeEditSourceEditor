@@ -3,10 +3,9 @@
     {
       "identity" : "codeeditlanguages",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/CodeEditApp/CodeEditLanguages.git",
+      "location" : "https://github.com/nautik-io/CodeEditLanguages",
       "state" : {
-        "revision" : "331d5dbc5fc8513be5848fce8a2a312908f36a11",
-        "version" : "0.1.20"
+        "revision" : "48ec20ca32ecbcd1d2379df73321f08e1818baee"
       }
     },
     {

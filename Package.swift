@@ -22,7 +22,7 @@ let package = Package(
         // tree-sitter languages
         .package(
             url: "https://github.com/nautik-io/CodeEditLanguages",
-            revision: "b83c9deb7ac8b145fe5cbb20f3800f9ab98215c1"
+            revision: "a1a0f740f18a3d6946eb7679fe9c7e6bbc2f561c"
         ),
         // CodeEditSymbols
         .package(
